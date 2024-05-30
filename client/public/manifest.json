@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Test Chrome Extension",
+  "version": "1.0",
+  "description": "Displays users list",
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "vite_16.png",
+    "48": "vite_48.png",
+    "128": "vite_128.png"
+  }
+}
